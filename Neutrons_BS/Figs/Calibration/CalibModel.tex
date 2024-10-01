@@ -1,0 +1,10 @@
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %pour la couleur
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %utile pour taper directement les caractères accentués
+\begin{document}
+\begin{align*}\chi^2 =& \frac{(\underline{\mathcal{D}}_{\text{cal}} - {\color[rgb]{0.990445,0.502228,0.032891}a.}\underline{\mathcal{S}}_{\text{res}})^2}{\sigma^2_\mathcal{D} +  ({\color[rgb]{0.990445,0.502228,0.032891}a.}\sigma_\mathcal{S})^2}\\
+\underline{\mathcal{D}}_{\text{cal}} :=&  \text{calibrated data with } E = \text{MCA}\times {\color[rgb]{0.990445,0.502228,0.032891}\text{Gain}} + {\color[rgb]{0.990445,0.502228,0.032891}\text{Offset}} \\
+\underline{\mathcal{S}}_{\text{res}} :=&  \underline{\underline{A}}\times \underline{\mathcal{S}}_{\text{E}_\text{true}} \text{ with } A_{ij} = \mathcal{G}(E_i, E_j, {\color[rgb]{0.990445,0.502228,0.032891}\sigma})\end{align*}
+\end{document}
