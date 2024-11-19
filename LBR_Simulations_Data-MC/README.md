@@ -1,7 +1,5 @@
 # Scripts for LBR Data-MC comparison 
 
-
-
 ## Procedure to do Data-MC comparison - C.G. 10/2023
 1- You have the simulation files (starting with Analyzer_*) that are in deposited energy and not normalized (it basically gathers all the simulated events).
 
@@ -21,7 +19,7 @@ Contamination is already normalized in the Histos file, it is the sum of 100 ind
 
 5- And then finally you can compare with the data. If you are not in DRU then it is really important to have the exact same binning.
 
-I put you here the simulation files (Analyzer_".root), the normalized files (Histos".root) and the folded with convolution files (ConvLin_".root) and the macro scripts.
+In the end, you need simulation files (Analyzer_".root), normalized files (Histos".root) and folded with convolution files (ConvLin_".root) and macro scripts.
 
 If you just want to compare the data with the simulation you can directly use the files were the simulation is folded with a resolution (ConvLin_*)
 
